@@ -1,0 +1,117 @@
+.main_div {
+    background-color: turquoise;
+    width: 100%;
+    min-height: 60vh;
+    display: inline-block;
+}
+
+.childs-div {
+    width: 50%;
+    min-height: 45vh;
+    background-color: cornflowerblue;
+    margin: 40px auto;
+    border-radius: 2px;
+    padding: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+figcaption {
+    color: #fff;
+    text-align: center;
+    align-items: center;
+}
+
+.add-items {
+    width:85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+input {
+    width: 90%;
+    padding: 6px;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    font-size: 17px;
+}
+
+.icons_div {
+    font-size: 30px;
+    font-weight: 300;
+    color: black;
+    background-color: #fff;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.show-items {
+    margin: 10px auto;
+}
+
+.eachs-items {
+    width: 82%;
+    height: 35px;
+    background-color: rgb(254, 254, 251);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.eachs-items>span {
+    margin-left: 5px;
+}
+
+.add_icon_div {
+    height: 36px;
+    font-size: 25px;
+    font-weight: 300;
+    color: black;
+    background-color: #fff;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+.delete_ico {
+    font-size: 25px;
+    font-weight: 300;
+    color: red;
+
+
+}
+
+.btn_div {
+    margin: auto;
+    text-align: center;
+}
+
+.btns_Btn {
+    color: #fff;
+    background-color: blue;
+    padding: 8px;
+    width: 85%;
+    font-size: 18px;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}

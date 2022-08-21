@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+
+    font-size: 20px;
+    margin-left: 10px;
+    background-color: teal;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* ADD_DELETE COMPONENTS */
+.forms {
+    width: 100%;
+    min-height: 40vh;
+    background-color: wheat;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.forms_ {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: tomato;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.h1 {
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 80px;
+    background-color: #4CAF50;
+}
+
+.inputs>input {
+    padding: 8px;
+    outline: none;
+    border-style: none;
+    font-size: 19px;
+}
+
+.btn {
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+
+.btn1 {
+    width: 40%;
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4CAF50;
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 19px;
+}
+
+/* UseEffect_API Components */
+.useeffect_api {
+    width: 90%;
+    min-height: 50vh;
+    background-color: #4CAF50;
+    margin: 20px auto;
+    position: relative;
+    padding: 10px;
+}
+
+.users {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.u1 {
+    width: 28%;
+    padding: 10px;
+    color: #fff;
+    background-color: blue;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.u2 {
+    width: 28%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(71, 71, 92);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.u3 {
+    width: 28%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(14, 15, 14);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.u4 {
+    width: 28%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(241, 18, 48);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.seccc {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec {
+    width: 90%;
+    min-height: 80vh;
+    background-color: #4CAF50;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+.secc {
+    width: 28%;
+    padding: 10px;
+    color: #fff;
+    background-color: rgb(241, 18, 48);
+    margin: 5px;
+    border-radius: 10px;
+}
+
+/*PlaceHolderData  */
+.place_api {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.place_container {
+    width: 90%;
+    min-height: 100vh;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(103, 154, 198);
+    margin: 50px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.plcae-one {
+    height: 20vh;
+    width: 30%;
+    background-color: rgb(250, 247, 247);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.imfdiv {
+    width: 30%;
+    height: 20vh;
+    text-align: center;
+    align-items: center;
+}
+
+.img {
+    width: 100%;
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.content-container {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.name {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    font-size: 19px;
+}
+
+.user1 {
+    text-align: center;
+    color: gray;
+    font-weight: 500;
+}
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    background-color: rgb(198, 198, 198);
+    margin-top: 10px;
+    border-radius: 5px;
+    height: 5vh;
+    padding: 5px;
+}
+
+.secions {
+    text-align: center;
+    height: 100%;
+    font-size: 15px;
+    color: gray;
+    font-weight: 600;
+}
+
+/* UseRef components */
+.form {
+    width: 100%;
+    height: 60vh;
+    margin: 50px auto;
+    background-color: gray;
+    display: inline-block;
+}
+
+form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: 50px auto;
+    background-color: violet;
+    border-radius: 10px;
+}
+
+.hed {
+    text-align: center;
+    font-size: 19px;
+    padding: 10px;
+}
+
+form>input {
+    padding: 6px;
+}
+
+button {
+    padding: 6px;
+    color: #fff;
+    outline: none;
+    background-color: yellowgreen;
+}
+
+.disp {
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
